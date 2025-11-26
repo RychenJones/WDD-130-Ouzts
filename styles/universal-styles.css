@@ -1,2 +1,49 @@
 /* this page is for universal styles such as header and footer. This should be linked to every page. */
 /* please use page-specific style pages for other stylings. */
+
+* {
+    box-sizing: border-box;
+}
+html, header, footer {
+    background-color: #4cb4ce;
+}
+body {
+    margin: 25px 0px 0px 0px;
+    background-color: white;
+}
+header {
+    width: 100%;
+    display: flex;
+}
+nav, footer {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    width: 100%;
+    padding-left: 200px;
+    background-color: #4cb4ce;
+}
+.logo {
+    height: 100%;
+    width: 120px;
+    display: block;
+}
+nav a, footer a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5em;
+}
+nav a {
+    padding: 50px 70px;
+}
+footer a {
+    padding: 36px 70px;
+
+}
+nav a:hover, footer a:hover {
+    background-color: #ed7e62;
+}
+footer {
+    height: 100px;
+}
